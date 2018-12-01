@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.outterBox{
+    margin: 0;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    outline: none;
+    background: url("abstract_flames.png");
+
+}
+
+h2{
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: slategrey;
+    top: 0%;
+    left: 50%;
+}
+
+.innerBox{
+    margin: 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box; /** the div box size **/
+    background: rgba(0,100,120,.8); /** the color background and the opacity **/
+    box-shadow: 0 15px 25px rgba(0,100,70,.5); /** the shadow effect of the box **/
+    border-radius: 10px; /** the corner of the box **/
+
+}

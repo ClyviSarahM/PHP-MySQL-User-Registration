@@ -7,6 +7,7 @@
 <body>
     <div class="outterBox">
         <h2>User Registration</h2>
+
         <div class="innerBox">
             <form action="">
                 <label for="username">Username : </label>
@@ -16,6 +17,7 @@
                 <input type="text" name="firstName" required=""/>
             </form>
         </div>
+
     </div>
 </body>
 </html>
